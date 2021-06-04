@@ -576,11 +576,14 @@ $txtColor:rgb(133, 133, 133);
 
 .header {
     width           : 100%;
-    height          : 160px;
+    min-height          : 100px;
     background-color: $blue;
     display         : flex;
     align-items     : center;
     justify-content : center;
+	// position:sticky;
+	// top:0;
+	// z-index:10;
 
     .navbar {
         width          : 70%;
@@ -622,6 +625,14 @@ $txtColor:rgb(133, 133, 133);
             width: 95%;
         }
     }
+
+	@include mqx(600px) {
+		.navbar {
+			.navlist {
+				flex-direction:column;
+			}
+		}
+	}
 }
 
 .home-sec {
