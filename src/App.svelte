@@ -1,5 +1,6 @@
 <script>
 	// export let name;
+	import * as animateScroll from "svelte-scrollto";
 </script>
 
 <svelte:head>
@@ -39,15 +40,20 @@
 			</div>
 			<ul class="navlist">
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<li><a href="#" class="navlink">excel</a></li>
+				<!-- svelte-ignore a11y-missing-attribute -->
+				<li><a on:click={() => animateScroll.scrollTo({element: '#excel'})} class="navlink">excel</a></li>
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<li><a href="#" class="navlink">services</a></li>
+				<!-- svelte-ignore a11y-missing-attribute -->
+				<li><a on:click={() => animateScroll.scrollTo({element: '#service'})} class="navlink">services</a></li>
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<li><a href="#" class="navlink">portfolio</a></li>
+				<!-- svelte-ignore a11y-missing-attribute -->
+				<li><a on:click={() => animateScroll.scrollTo({element: '#portfolio'})} class="navlink">portfolio</a></li>
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<li><a href="#" class="navlink">tools</a></li>
+				<!-- svelte-ignore a11y-missing-attribute -->
+				<li><a on:click={() => animateScroll.scrollTo({element: '#tools'})} class="navlink">tools</a></li>
 				<!-- svelte-ignore a11y-invalid-attribute -->
-				<li><a href="#" class="navlink">contact</a></li>
+				<!-- svelte-ignore a11y-missing-attribute -->
+				<li><a on:click={() => animateScroll.scrollTo({element: '#contact'})} class="navlink">contact</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -115,7 +121,7 @@
 		</div>
 	</section>
 
-	<section class="excel-sec">
+	<section class="excel-sec" id="excel">
 		<div class="excel-container">
 			<div class="img-container">
 				<img
@@ -145,7 +151,7 @@
 		</div>
 	</section>
 
-	<section class="service-sec">
+	<section class="service-sec" id="service">
 		<div class="service-container">
 			<div class="txt-container">
 				<h2 class="bg-title">my <br />services</h2>
@@ -188,7 +194,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio-sec">
+	<section class="portfolio-sec" id="portfolio">
 		<div class="portfolio-container">
 			<div class="txt-container">
 				<h2 class="bg-title">my <br />portfolio</h2>
@@ -262,7 +268,7 @@
 		</div>
 	</section>
 
-	<section class="tools-sec">
+	<section class="tools-sec" id="tools">
 		<div class="tools-container">
 			<div class="icons-container">
 				<div class="icon-container">
@@ -371,7 +377,7 @@
 		</div>
 	</section>
 
-	<section class="contact-sec">
+	<section class="contact-sec" id="contact">
 		<div class="contact-container">
 			<h2 class="bg-title">connect <br /> with me</h2>
 			<div class="overlay">
@@ -479,17 +485,19 @@
 							/></a
 						>
 				</div>
+				<!-- svelte-ignore a11y-missing-attribute -->
 				<ul class="navlist">
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<li><a href="#" class="navlink">excel</a></li>
+					<!-- svelte-ignore a11y-missing-attribute -->
+					<li><a on:click={() => animateScroll.scrollTo({element: '#excel'})} class="navlink">excel</a></li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<li><a href="#" class="navlink">services</a></li>
+					<li><a on:click={() => animateScroll.scrollTo({element: '#service'})} class="navlink">services</a></li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<li><a href="#" class="navlink">portfolio</a></li>
+					<li><a on:click={() => animateScroll.scrollTo({element: '#portfolio'})} class="navlink">portfolio</a></li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<li><a href="#" class="navlink">tools</a></li>
+					<li><a on:click={() => animateScroll.scrollTo({element: '#tools'})} class="navlink">tools</a></li>
 					<!-- svelte-ignore a11y-invalid-attribute -->
-					<li><a href="#" class="navlink">contact</a></li>
+					<li><a on:click={() => animateScroll.scrollTo({element: '#contact'})} class="navlink">contact</a></li>
 				</ul>
 			</nav>
 			<div class="seperation" />

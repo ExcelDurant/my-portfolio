@@ -31,4 +31,5 @@ section,footer {
 a {
     text-decoration: none;
     display        : inline-block;
+	cursor: pointer;
 }
