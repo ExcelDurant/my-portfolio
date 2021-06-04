@@ -1,16 +1,34 @@
 <script>
 	// export let name;
 </script>
+
 <svelte:head>
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />	
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,300&display=swap" rel="stylesheet">
-    
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <title>Portfolio</title>
+	<link
+		rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+		integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+		crossorigin="anonymous"
+	/>
+	<link
+		rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+	/>
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+	/>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,300&display=swap"
+		rel="stylesheet"
+	/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,300&display=swap"
+		rel="stylesheet"
+	/>
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<title>Portfolio</title>
 </svelte:head>
 
 <div class="full-page">
@@ -39,16 +57,54 @@
 			<div class="txt-container">
 				<div class="overlay">
 					<h2 class="header-txt">do with passion</h2>
-					<h1 class="title">design & develop <br>beautiful wep apps</h1>
+					<h1 class="title">
+						design & develop <br />beautiful wep apps
+					</h1>
 					<p class="txt">
-						Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Natus eaque qui delectus
-						explicabo temporibus.
+						Lorem ipsum dolor sit amet consectetur <br /> adipisicing
+						elit. Natus eaque qui delectus explicabo temporibus.
 					</p>
 					<div class="icons-container">
-						<a href="https://github.com/ExcelDurant" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
-						<a href="https://twitter.com/DurantExcel" target="_blank" class="icon-link"><i class="fab fa-twitter"></i></a>
-						<a href="https://www.instagram.com/troptop_ex/" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
-						<a href="https://www.linkedin.com/in/excel-gnopa-b5a8161b3/" target="_blank" class="icon-link"><i class="fab fa-linkedin-in"></i></a>
+						<a
+							href="https://github.com/ExcelDurant"
+							target="_blank"
+							class="icon-link"
+							><img
+								src="./../assets/img/github.svg"
+								class="full-img"
+								alt=""
+							/></a
+						>
+						<a
+							href="https://twitter.com/DurantExcel"
+							target="_blank"
+							class="icon-link icon-left twitt"
+							><img
+								src="./../assets/img/twitter.svg"
+								class="full-img"
+								alt=""
+							/></a
+						>
+						<a
+							href="https://www.instagram.com/troptop_ex/"
+							target="_blank"
+							class="icon-link icon-left insta"
+							><img
+								src="./../assets/img/instagram.svg"
+								class="full-img"
+								alt=""
+							/></a
+						>
+						<a
+							href="https://www.linkedin.com/in/excel-gnopa-b5a8161b3/"
+							target="_blank"
+							class="icon-link icon-left linkin"
+							><img
+								src="./../assets/img/linkedin.svg"
+								class="full-img"
+								alt=""
+							/></a
+						>
 					</div>
 				</div>
 				<h2 class="bg-title">modern</h2>
@@ -62,25 +118,29 @@
 	<section class="excel-sec">
 		<div class="excel-container">
 			<div class="img-container">
-				<img src="./../assets/img/profile.png" alt="" class="full-img">
+				<img
+					src="./../assets/img/profile.png"
+					alt=""
+					class="full-img"
+				/>
 			</div>
 			<div class="txt-container">
 				<div class="overlay">
-					<h3 class="header-txt">
-						Full-stack Web Developer
-					</h3>
+					<h3 class="header-txt">Full-stack Web Developer</h3>
 					<h2 class="title">
-						hi, my name is <br> Excel Durant
+						hi, my name is <br /> Excel Durant
 					</h2>
 					<p class="txt">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis cum at a rem quod! Nam
-						natus est eaque officia. Ullam ut hic consequatur? Totam tenetur voluptatem, nisi veritatis
-						eos nam!
-						Libero accusantium nesciunt sit? Voluptates aut illo incidunt earum explicabo culpa voluptas
-						odio, eveniet officiis ipsum laboriosam consequuntur doloremque deserunt quae aliquid
+						Lorem, ipsum dolor sit amet consectetur adipisicing
+						elit. Debitis cum at a rem quod! Nam natus est eaque
+						officia. Ullam ut hic consequatur? Totam tenetur
+						voluptatem, nisi veritatis eos nam! Libero accusantium
+						nesciunt sit? Voluptates aut illo incidunt earum
+						explicabo culpa voluptas odio, eveniet officiis ipsum
+						laboriosam consequuntur doloremque deserunt quae aliquid
 					</p>
 				</div>
-				<h2 class="bg-title">about <br>me</h2>
+				<h2 class="bg-title">about <br />me</h2>
 			</div>
 		</div>
 	</section>
@@ -88,16 +148,14 @@
 	<section class="service-sec">
 		<div class="service-container">
 			<div class="txt-container">
-				<h2 class="bg-title">my <br>services</h2>
+				<h2 class="bg-title">my <br />services</h2>
 				<div class="overlay">
-					<div class="logo"></div>
+					<div class="logo" />
 					<div class="titles">
-						<h3 class="title">
-							services
-						</h3>
+						<h3 class="title">services</h3>
 						<p class="txt">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Magni blanditiis laborum rem architecto omnis!
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Magni blanditiis laborum rem architecto omnis!
 						</p>
 					</div>
 				</div>
@@ -106,22 +164,24 @@
 				<div class="service-card">
 					<h4 class="card-title">Web Frontend</h4>
 					<p class="card-txt">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, maxime.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Nihil, maxime.
 					</p>
 				</div>
 				<div class="service-card">
 					<h4 class="card-title">Content Management</h4>
 					<p class="card-txt">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, maxime.
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi doloremque
-						suscipit.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Nihil, maxime. Lorem ipsum dolor sit amet consectetur
+						adipisicing elit. Accusamus quasi doloremque suscipit.
 					</p>
 				</div>
 				<div class="service-card">
 					<h4 class="card-title">Web Backend</h4>
 					<p class="card-txt">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, maxime.
-						Lorem ipsum dolor sit amet consectetur adipisicing.
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Nihil, maxime. Lorem ipsum dolor sit amet consectetur
+						adipisicing.
 					</p>
 				</div>
 			</div>
@@ -131,50 +191,71 @@
 	<section class="portfolio-sec">
 		<div class="portfolio-container">
 			<div class="txt-container">
-				<h2 class="bg-title">my <br>portfolio</h2>
+				<h2 class="bg-title">my <br />portfolio</h2>
 				<div class="overlay">
-					<div class="logo"></div>
+					<div class="logo" />
 					<div class="titles">
-						<h3 class="title">
-							portfolio
-						</h3>
+						<h3 class="title">portfolio</h3>
 						<p class="txt">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Magni blanditiis laborum rem architecto omnis!
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Magni blanditiis laborum rem architecto omnis!
 						</p>
 					</div>
 				</div>
 			</div>
 			<div class="works-grid">
-				<a href="https://exceldurant.github.io/blogr/" target="_blank" class="work-card-link">
+				<a
+					href="https://exceldurant.github.io/blogr/"
+					target="_blank"
+					class="work-card-link"
+				>
 					<div class="work-card">
-						<img src="./../assets/img/mentor1.png" alt="">
+						<img src="./../assets/img/mentor1.png" alt="" />
 					</div>
 				</a>
-				<a href="https://troptop-quiz.netlify.app" target="_blank" class="work-card-link">
+				<a
+					href="https://troptop-quiz.netlify.app"
+					target="_blank"
+					class="work-card-link"
+				>
 					<div class="work-card">
-						<img src="./../assets/img/quiz.png" alt="">
+						<img src="./../assets/img/quiz.png" alt="" />
 					</div>
 				</a>
-				<a href="https://exceldurant.github.io/Quiz-game/" target="_blank" class="work-card-link">
+				<a
+					href="https://exceldurant.github.io/Quiz-game/"
+					target="_blank"
+					class="work-card-link"
+				>
 					<div class="work-card">
-						<img src="./../assets/img/quiz2.png" alt="">
+						<img src="./../assets/img/quiz2.png" alt="" />
 					</div>
 				</a>
-				<a href="https://akylas.netlify.app" target="_blank" class="work-card-link">
+				<a
+					href="https://akylas.netlify.app"
+					target="_blank"
+					class="work-card-link"
+				>
 					<div class="work-card">
-						<img src="./../assets/img/akylas.png" alt="">
+						<img src="./../assets/img/akylas.png" alt="" />
 					</div>
 				</a>
-				<a href="https://actipoten-blog.netlify.app" target="_blank" class="work-card-link">
+				<a
+					href="https://actipoten-blog.netlify.app"
+					target="_blank"
+					class="work-card-link"
+				>
 					<div class="work-card">
-						<img src="./../assets/img/actiblog.png" alt="">
+						<img src="./../assets/img/actiblog.png" alt="" />
 					</div>
 				</a>
-				<a href="https://exceldurant.github.io/interactive-pricing-component/" target="_blank"
-					class="work-card-link">
+				<a
+					href="https://exceldurant.github.io/interactive-pricing-component/"
+					target="_blank"
+					class="work-card-link"
+				>
 					<div class="work-card">
-						<img src="./../assets/img/slider.png" alt="">
+						<img src="./../assets/img/slider.png" alt="" />
 					</div>
 				</a>
 			</div>
@@ -184,24 +265,102 @@
 	<section class="tools-sec">
 		<div class="tools-container">
 			<div class="icons-container">
-				<div class="icon-container"><img src="./../assets/img/html.png" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/css.png" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/jslogo.webp" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/sass.png" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/bootstrap.svg" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/svelte.png" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/vueLogo.png" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/nuxt-icon.png" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/angular.png" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/firebase.svg" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/node.png" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/mongo.png" alt="" class="full-img"></div>
-				<div class="icon-container"><img src="./../assets/img/mysql.png" alt="" class="full-img"></div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/html.png"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/css.png"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/jslogo.webp"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/sass.png"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/bootstrap.svg"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/svelte.png"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/vueLogo.png"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/nuxt-icon.png"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/angular.png"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/firebase.svg"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/node.png"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/mongo.png"
+						alt=""
+						class="full-img"
+					/>
+				</div>
+				<div class="icon-container">
+					<img
+						src="./../assets/img/mysql.png"
+						alt=""
+						class="full-img"
+					/>
+				</div>
 			</div>
 			<div class="txt-container">
-				<h2 class="bg-title">tools<br>I use</h2>
+				<h2 class="bg-title">tools<br />I use</h2>
 				<div class="overlay">
-					<div class="logo"></div>
+					<div class="logo" />
 					<h3 class="title">tools</h3>
 					<p class="txt">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -214,31 +373,58 @@
 
 	<section class="contact-sec">
 		<div class="contact-container">
-			<h2 class="bg-title">connect <br> with me</h2>
+			<h2 class="bg-title">connect <br /> with me</h2>
 			<div class="overlay">
 				<div class="txt-container">
-					<div class="logo"></div>
+					<div class="logo" />
 					<h3 class="title">contact me</h3>
 					<p class="txt">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
 						Magni blanditiis laborum rem architecto omnis!
 					</p>
 					<address class="address">
-						<h6 class="addr-txt icon-left phone"><a
-								href="https://wa.me/+237656766500?text=Hello%20I%20am%20interested%20in%20your%20work">+237
-								656 766 500</a></h6>
-						<h6 class="addr-txt icon-left loca">Douala, Cameroon</h6>
-						<h6 class="addr-txt icon-left mail"><a
-								href="mailto:gnopaexcel@yahoo.fr">gnopaexcel@yahoo.fr</a></h6>
+						<h6 class="addr-txt icon-left phone">
+							<a
+								href="https://wa.me/+237656766500?text=Hello%20I%20am%20interested%20in%20your%20work"
+								>+237 656 766 500</a
+							>
+						</h6>
+						<h6 class="addr-txt icon-left loca">
+							Douala, Cameroon
+						</h6>
+						<h6 class="addr-txt icon-left mail">
+							<a href="mailto:gnopaexcel@yahoo.fr"
+								>gnopaexcel@yahoo.fr</a
+							>
+						</h6>
 					</address>
 				</div>
 				<div class="form-container">
-					<form action="mailto:gnopaexcel@yahoo.fr" class="contact-form">
-						<input type="email" name="email" id="email" placeholder="your email" class="in">
-						<input type="text" name="name" id="name" placeholder="name" class="in">
-						<textarea name="message" id="message" placeholder="message"
-							class="in message-in"></textarea>
-						<input type="submit" value="send" class="submit-btn">
+					<form
+						action="mailto:gnopaexcel@yahoo.fr"
+						class="contact-form"
+					>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="your email"
+							class="in"
+						/>
+						<input
+							type="text"
+							name="name"
+							id="name"
+							placeholder="name"
+							class="in"
+						/>
+						<textarea
+							name="message"
+							id="message"
+							placeholder="message"
+							class="in message-in"
+						/>
+						<input type="submit" value="send" class="submit-btn" />
 					</form>
 				</div>
 			</div>
@@ -252,14 +438,46 @@
 					<div class="logo-container">
 						<h2 class="logo-txt">g-e</h2>
 					</div>
-					<a href="https://github.com/ExcelDurant" target="_blank" class="icon-link"><i
-							class="fab fa-github"></i></a>
-					<a href="https://twitter.com/DurantExcel" target="_blank" class="icon-link"><i
-							class="fab fa-twitter"></i></a>
-					<a href="https://www.instagram.com/troptop_ex/" target="_blank" class="icon-link"><i
-							class="fab fa-instagram"></i></a>
-					<a href="https://www.linkedin.com/in/excel-gnopa-b5a8161b3/" target="_blank"
-						class="icon-link"><i class="fab fa-linkedin-in"></i></a>
+					<a
+							href="https://github.com/ExcelDurant"
+							target="_blank"
+							class="icon-link"
+							><img
+								src="./../assets/img/github.svg"
+								class="full-img"
+								alt=""
+							/></a
+						>
+						<a
+							href="https://twitter.com/DurantExcel"
+							target="_blank"
+							class="icon-link icon-left twitt"
+							><img
+								src="./../assets/img/twitter.svg"
+								class="full-img"
+								alt=""
+							/></a
+						>
+						<a
+							href="https://www.instagram.com/troptop_ex/"
+							target="_blank"
+							class="icon-link icon-left insta"
+							><img
+								src="./../assets/img/instagram.svg"
+								class="full-img"
+								alt=""
+							/></a
+						>
+						<a
+							href="https://www.linkedin.com/in/excel-gnopa-b5a8161b3/"
+							target="_blank"
+							class="icon-link icon-left linkin"
+							><img
+								src="./../assets/img/linkedin.svg"
+								class="full-img"
+								alt=""
+							/></a
+						>
 				</div>
 				<ul class="navlist">
 					<!-- svelte-ignore a11y-invalid-attribute -->
@@ -274,7 +492,7 @@
 					<li><a href="#" class="navlink">contact</a></li>
 				</ul>
 			</nav>
-			<div class="seperation"></div>
+			<div class="seperation" />
 			<div class="copyright-container">
 				<h3 class="copyright-txt">Copyright 2021 gnopa-excel.com</h3>
 			</div>
@@ -347,7 +565,6 @@ $txtColor:rgb(133, 133, 133);
     color: $lightBlue;
     margin-right: 10px;
 }
-
 
 .header {
     width           : 100%;
@@ -444,6 +661,16 @@ $txtColor:rgb(133, 133, 133);
             width          : 150px;
             display        : flex;
             justify-content: space-between;
+			.icon-link {
+				width:25px;
+				height:25px;
+				border-radius:50%;
+				border:none;
+				transition:0.5s margin;
+				&:hover {
+					margin-top:-2%;
+				}
+			}
         }
 
 
@@ -1103,14 +1330,13 @@ $txtColor:rgb(133, 133, 133);
             }
             .icon-link {
                 margin-right: 15px;
-                i {
-                    color: white;
-                    font-size: 20px;
-                    transition: 0.5s color;
-                    &:hover {
-                        color: rgb(194, 193, 193);
-                    }
-                }
+				width:25px;
+				height:25px;
+				transition: 0.5s margin;
+
+				&:hover {
+					margin-top:-5%;
+				}
             }
             
         }
